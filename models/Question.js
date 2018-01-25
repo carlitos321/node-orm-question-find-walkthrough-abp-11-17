@@ -29,6 +29,10 @@ class Question{
     })
   }
 
+  Find(id) {
+    
+  }
+
 }
 
 module.exports = Question;
