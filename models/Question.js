@@ -30,15 +30,13 @@ class Question{
   }
 
   static Find(id) {
-    return new Promise(function(resolve){
       const sql = `SELECT content FROM questions WHERE id = (?)`
-      return new Promise(function(resolve{
+      return new Promise(function(resolve){
         db.get(sql, function(err, result){
           resolve("get id")
       })
 
       })
-    })
   }
 }
 
